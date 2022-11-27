@@ -58,16 +58,27 @@ nav {
 .dashboard {
   margin: 4rem 0 0;
   padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .table {
-  margin-top: 2rem;
-  background-color: var(--light-grey);
+  margin: 2rem;
+  background-color: var(--grey);
+  padding: 0.5rem;
   border-radius: 4px;
+  width: 90%;
+}
+
+.dash-data {
+  background-color: var(--light-grey);
   padding: 1rem;
+  border-radius: 4px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 3rem 10px;
 }
 
 .avatar img {
@@ -80,11 +91,21 @@ nav {
   color: var(--orange);
 }
 
+.task-name {
+  font-weight: 700;
+  width: 80px;
+}
+.task-status {
+  width: 80px;
+  display: inline-block;
+  padding: 10px;
+}
 .prog-bar {
   border-radius: 12px;
   padding: 0.02rem 3rem;
   background-color: var(--orange);
   color: var(--orange);
+  width: 80px;
 }
 
 i {
